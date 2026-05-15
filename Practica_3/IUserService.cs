@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Practica_3
 {
-    public interface IUsuarioServicio
+    public interface IUserService
     {
-        Task<Usuario> GetUserAsync();
+        Task<User> GetUserAsync();
     }
 }

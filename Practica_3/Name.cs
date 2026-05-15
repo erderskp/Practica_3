@@ -4,8 +4,9 @@ using System.Text;
 
 namespace Practica_3
 {
-    public class APIResponse
+    public class Name
     {
-        public List<User> Results { get; set; }
+        public string First { get; set; }
+        public string Last { get; set; }
     }
 }

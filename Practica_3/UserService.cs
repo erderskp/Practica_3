@@ -5,11 +5,11 @@ using System.Text.Json;
 
 namespace Practica_3
 {
-    public class UsuarioServicio: IUsuarioServicio
+    public class UserService: IUserService
     {
         private readonly HttpClient client = new HttpClient();
 
-        public async Task<Usuario> GetUserAsync()
+        public async Task<User> GetUserAsync()
         {
             string url = "https://randomuser.me/api/";
 

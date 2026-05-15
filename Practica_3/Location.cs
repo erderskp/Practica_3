@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Practica_3
 {
-    public class Ubicacion
+    public class Location
     {
-        public string Pais { get; set; }
+        public string Country { get; set; }
     }
 }

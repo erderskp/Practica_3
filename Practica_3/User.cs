@@ -5,11 +5,11 @@ using System.Xml.Linq;
 
 namespace Practica_3
 {
-    public class Usuario
+    public class User
     {
-        public string Genero { get; set; }
+        public string Gender { get; set; }
         public string Email { get; set; }
-        public Nombre Nombre { get; set; }
-        public Ubicacion Ubicacion { get; set; }
+        public Name Name { get; set; }
+        public Location Location { get; set; }
     }
 }
